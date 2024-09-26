@@ -1,0 +1,14 @@
+/* Separador rojo */
+.separador-rojo {
+    background-color: #E02B40; /* Rojo */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Subtítulo dentro del separador rojo */
+  .subtitulo-separador {
+    margin: 0;
+    font-weight: bold;
+  }

@@ -1,0 +1,314 @@
+/* Estilos Generales */
+body {
+    font-family: mixed;
+    margin:0;
+    padding: 0;
+}
+
+    
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AC1414;
+    padding: 20px;
+    color: #ffffff;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+
+/* Sección Principal */
+.hero {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+.search-and-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.account-actions .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/* Estilos para el menú */
+/*.main-nav {
+    background-color: #444;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+*/
+
+
+/* Sección de Acciones */
+.individual-actions {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #EDEBE0;
+}
+
+.actions h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.action-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los cuadros */
+    padding: 20px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+/* Estilos del texto del cuadro */
+.text {
+    flex: 1;
+
+  }
+.box h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #000000; /* Color de título */
+}
+.box p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #333;
+}
+.img-accions {
+    width: 100px; /* Puedes ajustar el tamaño según la imagen */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+.action-boxes .box {
+    background-color: #ffe0b2;
+   
+}
+/*
+.action-boxes .box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.action-boxes .box p {
+    font-size: 16px;
+}*/
+
+/* Sección de Ideas Colectivas */
+.collective-actions {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #FFC4BD;
+}
+
+.collective-actions h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.collective-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los cuadros */
+    padding: 20px;
+}
+
+.collective-boxes .box {
+    background-color: #ffe0b2;
+    
+}
+
+.idea-boxes .box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.idea-boxes .box p {
+    font-size: 16px;
+}
+
+
+
+/* Estilos adicionales para el carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Ajuste del contenido de la hero para que el carrusel sea visible */
+.hero {
+    padding-top: 120px; /* Ajusta el espacio superior para dejar ver el carrusel */
+}
+
+
+/* Pie de página */
+.footer {
+    background-color: #AC1414;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    margin-right: 10px;
+}
+
+.footer-logo h4 {
+    font-size: 20px;
+}
+
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .contact-info p {
+        text-align: center;
+    }
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item img {
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
