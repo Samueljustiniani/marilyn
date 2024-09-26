@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforma Vidas</title>
+    <link rel="stylesheet" href="/css/donaciones.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="/img/Logo/BMS_Rojo.png" alt="Logo BSM">
+        </a>
+        <nav id="menu-links">
+            <a href="#" class="nav-link">Nosotros</a>
+            <a href="#" class="nav-link">Comunidad</a>
+            <a href="#" class="nav-link">Recursos</a>
+            <a href="#" class="nav-link">Contacto</a>
+        </nav>
+        <div class="botonn">
+            <a href="#"><button>Iniciar Sesión</button></a>
+            <a href="#"><button>Comenzar</button></a>
+        </div>
+    </header>
+
+    <div class="fondo">
+        <h1>Transforma vidas con tu donación</h1>
+    </div>
+
+    <p>
+        Ayuda a Erradicar la Pobreza Hoy: Tu donación puede transformar vidas. Con solo un pequeño aporte, estarás
+        empoderando a familias vulnerables, brindándoles acceso a recursos esenciales como educación, salud y
+        oportunidades laborales. Juntos, podemos construir un mundo más equitativo y sostenible. Dona ahora y sé parte
+        del cambio.
+    </p>
+
+    <div class="container">
+        <img src="/img/Donaciones/FelizDonar.jpg" alt="Niño FelizDonar" id="animatedImg" width="500px">
+    </div>
+    
+    
+
+    <button class="open-btn" onclick="openModal()">Hacer Donación</button>
+    
+    <div id="donationModal" class="modal" aria-hidden="true">
+        <div class="modal__content">
+            <button class="close-btn" onclick="closeModal()" aria-label="Cerrar modal">X</button>
+            <h3>¡Ayuda a Erradicar la Pobreza!</h3>
+            <p>Hoy, tu donación puede cambiar vidas. Por favor completa este formulario para unirte a nuestra causa. ¡Tu
+                apoyo hace la diferencia!</p>
+
+            <form id="donationForm" onsubmit="handleSubmit(event)">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre..." required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="tuemail@gmail.com" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono..." required>
+
+                <label for="donation">¿Qué proyectos deseas apoyar con tu donación?</label>
+                <select name="donation" id="donation" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Alimento">Alimento</option>
+                    <option value="Útiles escolares">Útiles escolares</option>
+                    <option value="Equipos electrónicos">Equipos electrónicos</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<!-- Pie de página -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="/img/Logo/BMS_Rojo.png" alt="BMS Logo" width="170">
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="/Iconos/Pagina_Principal/Contacto/facebook.png" alt="Facebook" width="30"></a>
+            <a href="#"><img src="/Iconos/Pagina_Principal/Contacto/youtube.png" alt="YouTube" width="30"></a>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/telefono.png" alt="Teléfono" width="20">
+                <p>(01) 581-2261</p>
+            </div>
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
+                <p><a href="mailto:informes@vallegrande.edu.pe">informes@vallegrande.edu.pe</a></p>
+            </div>
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
+                <p><a
+                        href="mailto:briseyda.arbizu.valladolid@vallegrande.edu.pe">briseyda.arbizu.valladolid@vallegrande.edu.pe</a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
+                <p><a
+                        href="mailto:marilyn.vilcapuma.trujillo@vallegrande.edu.pe">marilyn.vilcapuma.trujillo@vallegrande.edu.pe</a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
+                <p><a
+                        href="mailto:samuel.justiniani.lancho@vallegrande.edu.pe">samuel.justiniani.lancho@vallegrande.edu.pe</a>
+                </p>
+            </div>
+            <div class="contact-item">
+                <img src="/Iconos/Pagina_Principal/Contacto/sitio_web.png" alt="Website" width="20">
+                <p><a href="https://www.vallegrande.edu.pe" target="_blank">www.vallegrande.edu.pe</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>©2024 BMS - Todos los derechos reservados</p>
+        </div>
+</footer>
+<script src="/controller/donacion.js"></script>
+<script src="/prueba/animacion.js"></script>
+</html>
