@@ -1,0 +1,72 @@
+.carousel-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  /* Ensures the background is behind the content */
+}
+
+.carousel-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;  /* Ensures the background is behind the content */
+}
+
+.carousel-image:nth-child(1) {
+    opacity: 1;
+}
+
+.carousel-image:nth-child(2),
+.carousel-image:nth-child(3) {
+    opacity: 0;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.carousel-image:nth-child(1) {
+    animation: slide 15s infinite;
+}
+
+.carousel-image:nth-child(2) {
+    animation: slide 15s infinite 5s;
+}
+
+.carousel-image:nth-child(3) {
+    animation: slide 15s infinite 10s;
+}
+
+.hero {
+    position: relative; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 1; 
+}

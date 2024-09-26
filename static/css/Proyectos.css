@@ -1,0 +1,69 @@
+/* Estilo para el título principal */
+.main-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+/* Contenedor de la sección con los proyectos */
+.proyectos-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Estilos para la columna de texto */
+.proyectos-texto {
+    width: 60%;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la lista de proyectos */
+.proyectos-texto ol {
+    padding-left: 20px;
+}
+
+.proyectos-texto ol li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilo para la imagen de la derecha */
+.proyectos-imagen {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos-imagen img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo adicional para asegurar la responsividad */
+@media screen and (max-width: 768px) {
+    .proyectos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyectos-texto,
+    .proyectos-imagen {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .proyectos-imagen img {
+        max-width: 90%;
+    }
+}

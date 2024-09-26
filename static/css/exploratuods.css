@@ -1,0 +1,128 @@
+.encabezado-ods{
+    width: 120px;
+    height: 12px;
+}
+
+.explora-text{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos básicos para el header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-and-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.account-actions .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Estilos para el menú */
+.main-nav {
+    background-color: #444;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+
+/* Estilos para el menú en versión móvil */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    #menu-toggle:checked ~ .main-nav {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        width: 100%;
+        padding: 15px;
+        border-top: 1px solid #555;
+    }
+}
