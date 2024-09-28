@@ -1,0 +1,44 @@
+/* Animaciones generales */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-from-left {
+    opacity: 0;
+    animation: slideInLeft 1.5s ease-out forwards; /* lento*/
+}
+
+.animate-from-right {
+    opacity: 0;
+    animation: slideInRight 1.5s ease-out forwards; /*  lenta */
+}
+
+/* Para las animaciones de los elementos ODS */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* Animación más lenta */
+    transform: translateY(40px); /* Mayor desplazamiento inicial */
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
