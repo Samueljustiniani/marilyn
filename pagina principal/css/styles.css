@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: mixed;
     margin: 0;
     padding: 0;
     background-color: #E6E2CD;
@@ -305,7 +305,7 @@ body {
 
 .importance-section {
     background-color: #FFC4BD;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 50px 20px;
     text-align: center;
 }

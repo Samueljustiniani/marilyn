@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprende y Emprende</title>
+    <title>BMS</title>
     <link rel="stylesheet" href="/pagina principal/css/styles.css">
     <link rel="stylesheet" href="/pagina principal/css/carousel.css">
     <link rel="stylesheet" href="/pagina principal/css/scroll-animation.css">
@@ -19,8 +19,7 @@
 <body>
     <header class="header">
         <div class="top-bar animate-from-left">
-            <img src="/static/img/Iconos Pagina/libro-abierto.png" alt="Valle Grande Logo" width="50">
-            <h4>AprendeyEmprende</h4>
+            <img src="/img/Logo/BMS_Rojo.png" alt="BMS" width="200">
             <div class="search-and-actions">
                 <input type="text" placeholder="Buscar..." class="search-bar">
                 <div class="account-actions">
@@ -38,12 +37,13 @@
         </div>
         <nav class="main-nav animate-from-right" id="nav-menu">
             <ul class="nav-links">
-                <li><a href="#">Catálogo</a></li>
                 <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Comunidad</a></li>
-                <li><a href="#">Recursos</a></li>
+                <li><a href="/Pages/acciones.html">Acciones</a></li>
+                <li><a href="/Pages/retos_proyectos.html">Retos y Proyectos</a></li>
+                <li><a href="/Pages/donaciones.html">Donaciones</a></li>
+                <li><a href="/Pages/producto.html">Producto</a></li>
                 <li><a href="#">Contacto</a></li>
-                <li><a href="explora_tu_ods.html">Explora de ODS</a></li>
+                <li><a href="/Pages/explora.html">Explora de ODS</a></li>
             </ul>
         </nav>
     </header>
@@ -51,20 +51,18 @@
     <section class="hero">
         <div class="carousel-background">
             <!-- Imágenes del carrusel -->
-            <div class="carousel-image" style="background-image: url('/static/img/IMG ODS/vg.png');"></div>
-            <div class="carousel-image" style="background-image: url('/static/img/IMG ODS/pobreza.png');"></div>
-            <div class="carousel-image" style="background-image: url('/static/img/IMG ODS/pobreza2.jpg');"></div>
+            <div class="carousel-image" style="background-image: url(/img/Encabezados/pobreza.png);"></div>
+            <div class="carousel-image" style="background-image: url('/img/Pagina_Inicio/imgInicio.jpg');"></div>
+            <div class="carousel-image" style="background-image: url('/img/Pagina_Inicio/valle\ grande.png');"></div>
         </div>
         <div class="hero-content">
-            <h1>Aprende Habilidades Financieras</h1>
-            <p>Este sitio web tiene como objetivo apoyar a las personas con bajos recursos que desean aprender y mejorar
-                su situación económica, contribuyendo así al primer Objetivo de Desarrollo Sostenible. Ofrecemos
-                <strong>cursos gratuitos</strong> en educación financiera, ahorro y emprendimiento, diseñados para
-                empoderar a los usuarios con los conocimientos necesarios para <strong>transformar su vida</strong> y
-                alcanzar la <strong>estabilidad económica</strong>.
+            <h1>Transforma Vidas con Tú Donación</h1>
+            <p>Este sitio web está diseñado para quienes desean contribuir al bienestar de personas en situación vulnerable. 
+                Con tu apoyo, ya sea a través de donaciones monetarias, alimentos, ropa u otros recursos, estarás ayudando a mejorar la calidad de vida de muchas familias y apoyando la lucha contra la pobreza.
+                Cada aporte cuenta para crear un futuro mejor. Únete a nuestra causa y juntos marquemos la diferencia
             </p>
             <div class="hero-buttons">
-                <a href="#" class="btn primary">Empieza a Aprender Gratis</a>
+                <a href="#" class="btn primary">Haz tu Donación</a>
                 <a href="#" class="btn secondary">Únete a la Comunidad</a>
             </div>
         </div>
@@ -73,7 +71,7 @@
     <section class="ods-section animate-from-right">
         <h2>17 Objetivos para Transformar Nuestro Mundo</h2>
         <div class="ods-content">
-            <img src="/static//img/IMG ODS/ODS-círculo.png" alt="Objetivos de Desarrollo Sostenible" class="ods-image">
+            <img src="/img/Pagina_Inicio/inicioODS.png" alt="Objetivos de Desarrollo Sostenible" class="ods-image">
             <div class="ods-text">
                 <p>Los Objetivos de Desarrollo Sostenible (ODS) son una serie de 17 metas globales adoptadas por todos
                     los países de la ONU en 2015, con el objetivo de construir un mundo más justo, equitativo y
@@ -83,14 +81,14 @@
         </div>
     </section>
 
-    <img src="/static/img/IMG ODS/Encabezado ODS.png" alt="Descripción de la imagen" class="ods-banner">
+    <img src="/img/Encabezados/Encabezado ODS.png" alt="Descripción de la imagen" class="ods-banner">
 
     <!-- Sección de Tarjetas con efecto Flip -->
     <section class="ods-goals">
         <div class="flip-card animate-on-scroll">
             <div class="flip-card-inner">
-                <div class="flip-card-front" style="background-color: aliceblue;">
-                    <img src="/static/img/IMG ODS/Uno.png" alt="Fin de la Pobreza">
+                <div class="flip-card-front" style="background-color: #E8212D;">
+                    <img src="/Iconos/ODS/01_Icono.png" alt="Fin de la Pobreza ">
                 </div>
                 <div class="flip-card-back">
                     <h3>Fin de la Pobreza</h3>
@@ -102,8 +100,8 @@
 
         <div class="flip-card animate-on-scroll">
             <div class="flip-card-inner">
-                <div class="flip-card-front" style="background-color: aliceblue">
-                    <img src="/static/img/IMG ODS/Dos.png" alt="Hambre Cero">
+                <div class="flip-card-front" style="background-color: #DDA83A">
+                    <img src="/Iconos/ODS/02_Icono.png" alt="Hambre Cero">
                 </div>
                 <div class="flip-card-back">
                     <h3>Hambre Cero</h3>
@@ -115,8 +113,8 @@
 
         <div class="flip-card animate-on-scroll">
             <div class="flip-card-inner">
-                <div class="flip-card-front" style="background-color: aliceblue">
-                    <img src="/static/img/IMG ODS/Tres.png" alt="Salud y Bienestar">
+                <div class="flip-card-front" style="background-color: #4C9F38">
+                    <img src="/Iconos/ODS/03_Icono.png" alt="Salud y Bienestar">
                 </div>
                 <div class="flip-card-back">
                     <h3>Salud y Bienestar</h3>
@@ -127,16 +125,184 @@
 
         <div class="flip-card animate-on-scroll">
             <div class="flip-card-inner">
-                <div class="flip-card-front" style="background-color: aliceblue">
-                    <img src="/static/img/IMG ODS/cuatro.png" alt="Salud y Bienestar">
+                <div class="flip-card-front" style="background-color: #c31f33">
+                    <img src="/Iconos/ODS/04_Icono.png" alt="Educación de Calidad">
                 </div>
                 <div class="flip-card-back">
-                    <h3>Salud y Bienestar</h3>
-                    <p>Asegurar una buena salud y bienestar para todos, con acceso a servicios médicos de calidad.</p>
+                    <h3>Educación de Calidad</h3>
+                    <p>Asegurar una educación inclusiva y equitativa de calidad, y promover oportunidades de aprendizaje durante toda la vida para todos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #ff3a21">
+                    <img src="/Iconos/ODS/05_Icono.png" alt="Igualdad de Genero">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Igualdad de Genero</h3>
+                    <p>Promueve la igualdad de género, buscando eliminar la discriminación y la violencia para empoderar tanto a mujeres como a hombres en todos los ámbitos de la sociedad.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #00aed9">
+                    <img src="/Iconos/ODS/06_Icono.png" alt="Agua Limpia y Saneamiento">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Agua Limpia y Saneamiento</h3>
+                    <p>Garantizar la disponibilidad y gestión sostenible del agua y el saneamiento para todos, protegiendo los ecosistemas relacionados con el agua. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #fdb713">
+                    <img src="/Iconos/ODS/07_Icono.png" alt="Energía Sostenible y No Contaminante">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Energía Sostenible y No Contaminante</h3>
+                    <p>Garantiza una energia segura, asquible, sostenida y moderna para todos, aumentando el uso de fuentes de energía renovable. 
+                    </p>
                 </div>
             </div>
         </div>
 
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #8f1838">
+                    <img src="/Iconos/ODS/08_Icono.png" alt="Trabajo Decente y Crecimiento Económico">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Trabajo Decente y Crecimiento Económico</h3>
+                    <p>Promover un crecimiento inclusivo y sostenible, con empleo pleno, productivo y decente para todos. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #fd6925">
+                    <img src="/Iconos/ODS/09_Icono.png" alt="Industria, Innovación e Infraestructura">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Industria, Innovación e Infraestructura</h3>
+                    <p>Construir infraestructuras y fomentar la innovación son clave para el crecimiento económico y el desarrollo duradero. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #dd1367">
+                    <img src="/Iconos/ODS/10_Icono.png" alt="Reducción de las Desigualdades">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Reducción de las Desigualdades</h3>
+                    <p>Reducir las desigualdades dentro y entre países, promoviendo la inclusión social y económica para todos. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #f99d26">
+                    <img src="/Iconos/ODS/11_Icono.png" alt="Ciudad y Comunidades Sostenibles">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Ciudad y Comunidades Sostenibles</h3>
+                    <p>Reducir las desigualdades dentro y entre países, promoviendo la inclusión social y económica para todos. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #bf8b2e">
+                    <img src="/Iconos/ODS/12_Icono.png" alt="Producción y Consumo Responsable">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Producción y Consumo Responsable</h3>
+                    <p>Promover consumo y producción sostenibles, reduciendo el desperdicio y utilizando recursos eficientemente.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #3f7e44">
+                    <img src="/Iconos/ODS/13_Icono.png" alt="Acción por el Clima">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Acción por el Clima</h3>
+                    <p>Toma medidas urgentes para combatir el cambio climático y sus efectos, mejorando la resiliencia y la adaptación a desastres naturales.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #007dbc">
+                    <img src="/Iconos/ODS/14_Icono.png" alt="Vida Submarina">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Vida Submarina</h3>
+                    <p>Pretende conservar y utilizar sosteniblemente los oceános y recursos marinos para el desarrollo sostenible, protegiendo los ecosistema marino.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #3eb049">
+                    <img src="/Iconos/ODS/15_Icono.png" alt="Vida de Ecosistemas Terrestres">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Vida de Ecosistemas Terrestres</h3>
+                    <p>Conserva, protege y restaura los ecosistemas, gestiona sosteniblemente los bosques, combate la desertificación, detén la degradación de tierras y la pérdida de biodiversidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #02558b">
+                    <img src="/Iconos/ODS/16_Icono.png" alt="Paz, Justicia e Instituciones Sólidas">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Paz, Justicia e Instituciones Sólidas</h3>
+                    <p>Promover sociedades pacíficas , facilitar el acceso a la justicia y crear instituciones eficaces.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #183668">
+                    <img src="/Iconos/ODS/17_Icono.png" alt="Alianzas para lograr los Objetivos">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Alianzas para lograr los Objetivos</h3>
+                    <p>Fortalecer los medios de ejecución y revitalizar la Alianza Mundial para el Desarrollo Sostenible, fomentando la cooperación entre gobiernos, el sector privado y la sociedad civil.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card animate-on-scroll">
+            <div class="flip-card-inner">
+                <div class="flip-card-front" style="background-color: #fff">
+                    <img src="/Iconos/ODS/00_IconoODS.png" alt="Alianzas para lograr los Objetivos">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Objetivos de Desarrollo Sostenible</h3>
+                    <p>Son una agenda global para erradicar la pobreza, proteger el planeta y garantizar el bienestar y la igualdad para todas las personas hacia 2030.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="importance-section animate-from-left">
@@ -157,15 +323,15 @@
         <h2>Explora los ODS</h2>
         <div class="ods-options">
             <div class="option-card">
-                <img src="/static/img/Iconos Pagina/meta.png" alt="Metas e Indicadores">
+                <img src="/Iconos/Explora_los_ODS/metas_indicadores.png" alt="Metas e Indicadores">
                 <p>Metas e Indicadores</p>
             </div>
             <div class="option-card">
-                <img src="/static/img/Iconos Pagina/Acciones.png" alt="Acciones">
+                <img src="/Iconos/Explora_los_ODS/Acciones.png" alt="Acciones">
                 <p>Acciones</p>
             </div>
             <div class="option-card">
-                <img src="/static/img/Iconos Pagina//Retos.png" alt="Retos y Desafíos">
+                <img src="/Iconos/Explora_los_ODS/Retos_Desafios.png" alt="Retos y Desafíos">
                 <p>Retos y Desafíos</p>
             </div>
         </div>
@@ -175,7 +341,7 @@
     <section class="projects-section">
         <div class="projects-header-container">
             <div class="projects-header">
-                <img src="/static/img/Iconos Pagina/cierre.png" alt="Icono de Proyectos Exitosos">
+                <img src="/Iconos/Subtitulos/proyectos_exitosos.png" alt="Icono de Proyectos Exitosos">
                 <h2>Proyectos Exitosos</h2>
             </div>
         </div>
@@ -183,40 +349,27 @@
             <!-- Contenedor de las tarjetas -->
             <div class="projects-cards-container"> <!-- Cambiado a projects-cards-container -->
                 <div class="projects-card"> <!-- Cambiado a projects-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Proyecto 1">
+                    <img src="/img/Retos y proyecto/proyecto.png" alt="Proyecto 1">
                     <div class="card-content">
                         <h3>Proyecto 1</h3>
                         <p>Descripción del proyecto 1.</p>
                     </div>
                 </div>
                 <div class="projects-card"> <!-- Cambiado a projects-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Proyecto 1">
+                    <img src="/img/Retos y proyecto/proyecto2.jpg" alt="Proyecto 2">
                     <div class="card-content">
                         <h3>Proyecto 1</h3>
                         <p>Descripción del proyecto 1.</p>
                     </div>
                 </div>
                 <div class="projects-card"> <!-- Cambiado a projects-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Proyecto 1">
+                    <img src="/img/Retos y proyecto/proyecto3.jpg" alt="Proyecto 3">
                     <div class="card-content">
                         <h3>Proyecto 1</h3>
                         <p>Descripción del proyecto 1.</p>
                     </div>
                 </div>
-                <div class="projects-card"> <!-- Cambiado a projects-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Proyecto 1">
-                    <div class="card-content">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción del proyecto 1.</p>
-                    </div>
-                </div>
-                <div class="projects-card"> <!-- Cambiado a projects-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Proyecto 1">
-                    <div class="card-content">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción del proyecto 1.</p>
-                    </div>
-                </div>
+               
                 <!-- Repite para cada tarjeta de proyecto -->
             </div>
             <!-- Flechas de navegación -->
@@ -230,14 +383,14 @@
     <section class="organizations-section">
         <div class="organizations-header-container">
             <div class="organizations-header">
-                <img src="/static/img/Iconos Pagina/pieza-de-puzzle.png" alt="Icono de Organizaciones">
+                <img src="/Iconos/Subtitulos/organizaciones.png" alt="Icono de Organizaciones">
                 <h2>Organizaciones</h2>
             </div>
         </div>
 
         <div class="organization-card">
             <div class="organization-logo">
-                <img src="/static/img/Iconos Pagina/techo.png" alt="Logo de TECHO">
+                <img src="/Iconos/Organizaciones/Techo_Peru.png" alt="Logo de TECHO">
             </div>
             <div class="organization-info">
                 <p>TECHO Perú combate la pobreza extrema construyendo viviendas y promoviendo comunidades sostenibles.
@@ -250,35 +403,28 @@
             <!-- Contenedor de las tarjetas de organizaciones -->
             <div class="organizations-cards-container"> <!-- Cambiado a organizations-cards-container -->
                 <div class="organizations-card"> <!-- Cambiado a organizations-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Organización 1">
+                    <img src="/img/Organizaciones/TechoPeru/señores-techoperu.jpeg" alt="Organización 1">
                     <div class="card-content">
                         <h3>Organización 1</h3>
                         <p>Descripción de la organización 1.</p>
                     </div>
                 </div>
                 <div class="organizations-card"> <!-- Cambiado a organizations-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Organización 1">
+                    <img src="/img/Organizaciones/TechoPeru/techoperu1.jpg" alt="Organización 1">
                     <div class="card-content">
                         <h3>Organización 1</h3>
                         <p>Descripción de la organización 1.</p>
                     </div>
                 </div>
                 <div class="organizations-card"> <!-- Cambiado a organizations-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Organización 1">
+                    <img src="/img/Organizaciones/TechoPeru/techoperu4.jpg" alt="Organización 1">
                     <div class="card-content">
                         <h3>Organización 1</h3>
                         <p>Descripción de la organización 1.</p>
                     </div>
                 </div>
                 <div class="organizations-card"> <!-- Cambiado a organizations-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Organización 1">
-                    <div class="card-content">
-                        <h3>Organización 1</h3>
-                        <p>Descripción de la organización 1.</p>
-                    </div>
-                </div>
-                <div class="organizations-card"> <!-- Cambiado a organizations-card -->
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Organización 1">
+                    <img src="/img/Organizaciones/TechoPeru/techoperu5.jpg" alt="Organización 1">
                     <div class="card-content">
                         <h3>Organización 1</h3>
                         <p>Descripción de la organización 1.</p>
@@ -312,7 +458,7 @@
 
         <div class="community-card">
             <div class="community-logo">
-                <img src="/static/img/Iconos Pagina/logo-JUSA.png" alt="Logo de JUSA">
+                <img src="/Iconos/Organizaciones/JUSA.jfif" alt="Logo de JUSA">
             </div>
             <div class="community-info">
                 <p>El Grupo Parroquial Juventud Santa Ana (G.P. JUSA) trabaja activamente en la erradicación de la
@@ -325,28 +471,28 @@
             <!-- Contenedor de las tarjetas de la comunidad -->
             <div class="community-cards-container">
                 <div class="community-card-item">
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Comunidad 1">
+                    <img src="/img/Organizaciones/JUSA/ayudaJusa1.jpg" alt="Comunidad 1">
                     <div class="card-content">
                         <h3>Comunidad 1</h3>
                         <p>Descripción de la comunidad 1.</p>
                     </div>
                 </div>
                 <div class="community-card-item">
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Comunidad 2">
+                    <img src="/img/Organizaciones/JUSA/ayudaJusa2.jpg" alt="Comunidad 2">
                     <div class="card-content">
                         <h3>Comunidad 2</h3>
                         <p>Descripción de la comunidad 2.</p>
                     </div>
                 </div>
                 <div class="community-card-item">
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Comunidad 3">
+                    <img src="/img/Organizaciones/JUSA/hospitalJusa.jpg" alt="Comunidad 3">
                     <div class="card-content">
                         <h3>Comunidad 3</h3>
                         <p>Descripción de la comunidad 3.</p>
                     </div>
                 </div>
                 <div class="community-card-item">
-                    <img src="/static/img/IMG ODS/proyecto1.png" alt="Comunidad 4">
+                    <img src="/img/Organizaciones/JUSA/NecesidadJusa.jpg" alt="Comunidad 4">
                     <div class="card-content">
                         <h3>Comunidad 4</h3>
                         <p>Descripción de la comunidad 4.</p>
@@ -366,16 +512,16 @@
         <div class="donations-container">
             <!-- Tarjeta de Donación: Cuentas Bancarias -->
             <div class="donation-card">
-                <img src="/static/img/img donaciones/camiseta.png" alt="Cuentas Bancarias" class="donation-icon">
-                <h3 class="donation-title">Cuentas Bancarias</h3>
+                <img src="/Iconos/Donaciones/material-escolar.png" alt="Útiles Escolares" class="donation-icon">
+                <h3 class="donation-title">Útiles Escolares</h3>
                 <p class="donation-description">
-                    Puedes colaborar con nuestro proyecto dirigido a las personas en situación de pobreza.
+                    Puedes colaborar con recursos que contribuyan a la educación 
                 </p>
             </div>
     
             <!-- Tarjeta de Donación: Ropas -->
             <div class="donation-card">
-                <img src="/static/img/img donaciones/comida.png" alt="Ropas" class="donation-icon">
+                <img src="/Iconos/Donaciones/ropas.png" alt="Ropas" class="donation-icon">
                 <h3 class="donation-title">Ropas</h3>
                 <p class="donation-description">
                     Puedes colaborar con donación de ropas en buen estado.
@@ -384,7 +530,7 @@
     
             <!-- Tarjeta de Donación: Alimentos -->
             <div class="donation-card">
-                <img src="/static/img/img donaciones/dinero.png" alt="Alimentos" class="donation-icon">
+                <img src="/Iconos/Donaciones/alimentos.png" alt="Alimentos" class="donation-icon">
                 <h3 class="donation-title">Alimentos</h3>
                 <p class="donation-description">
                     Puedes colaborar con donación de alimentos nutritivos.
@@ -407,53 +553,52 @@
     <script src="/pagina principal/js/carousel.js"></script>
     <script src="/pagina principal/js/projects-sliding-cards.js"></script>
 
+    <!-- Pie de página -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="/static/img/Iconos Pagina/libro-abierto.png" alt="Aprende y Emprende Logo" width="50">
-                <h4>AprendeyEmprende</h4>
+                <img src="/img/Logo/BMS_Rojo.png" alt="BMS Logo" width="170">
             </div>
             <div class="social-media">
-                <a href="#"><img src="/static/img/Iconos Pagina/facebook.png" alt="Facebook" width="30"></a>
-                <a href="#"><img src="/static/img/Iconos Pagina/youtube (1).png" alt="YouTube" width="30"></a>
+                <a href="#"><img src="/Iconos/Pagina_Principal/Contacto/facebook.png" alt="Facebook" width="30"></a>
+                <a href="#"><img src="/Iconos/Pagina_Principal/Contacto/youtube.png" alt="YouTube" width="30"></a>
             </div>
             <div class="contact-info">
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/telefono.png" alt="Teléfono" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/telefono.png" alt="Teléfono" width="20">
                     <p>(01) 581-2261</p>
                 </div>
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/correo-electronico.png" alt="Email" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
                     <p><a href="mailto:informes@vallegrande.edu.pe">informes@vallegrande.edu.pe</a></p>
                 </div>
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/correo-electronico.png" alt="Email" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
                     <p><a
                             href="mailto:briseyda.arbizu.valladolid@vallegrande.edu.pe">briseyda.arbizu.valladolid@vallegrande.edu.pe</a>
                     </p>
                 </div>
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/correo-electronico.png" alt="Email" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
                     <p><a
                             href="mailto:marilyn.vilcapuma.trujillo@vallegrande.edu.pe">marilyn.vilcapuma.trujillo@vallegrande.edu.pe</a>
                     </p>
                 </div>
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/correo-electronico.png" alt="Email" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/correo_electronico.png" alt="Email" width="20">
                     <p><a
                             href="mailto:samuel.justiniani.lancho@vallegrande.edu.pe">samuel.justiniani.lancho@vallegrande.edu.pe</a>
                     </p>
                 </div>
                 <div class="contact-item">
-                    <img src="/static/img/Iconos Pagina/idioma.png" alt="Website" width="20">
+                    <img src="/Iconos/Pagina_Principal/Contacto/sitio_web.png" alt="Website" width="20">
                     <p><a href="https://www.vallegrande.edu.pe" target="_blank">www.vallegrande.edu.pe</a></p>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>©2024 AprendeyEmprende - Todos los derechos reservados</p>
+                <p>©2024 BMS - Todos los derechos reservados</p>
             </div>
-        </div>
     </footer>
 </body>
 
